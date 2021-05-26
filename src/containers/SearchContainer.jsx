@@ -5,28 +5,33 @@ import { fetchArtists } from '../services/brainz-api';
 const SearchContainer = () => {
   const [loading, setLoading] = useState(true);
   const [artists, setArtists] = useState([]);
+  const [count, setCount] = useState();
   const [page, setPage] = useState(1);
-  const [artistsPerPage, setArtistsPerPage] = useState(10);
-
-  const indexOfLastArtist = page * artistsPerPage;
-  const indexOfFirstArtist = indexOfLastArtist - artistsPerPage;
-  const currentArtists = artists.slice(indexOfFirstArtist, indexOfLastArtist);
+  const [limit, setLimit] = useState(50)
 
   useEffect(() => {
-    fetchArtists()
-      .then(setArtists)
-      .finally(() => setLoading(false));
-    
-  }, [setArtistsPerPage]);
+    fetchArtists(page, limit)
+      .then(({count, artistsArray}) => {
+        setArtists(artistsArray)
+        setCount(count)
+      })
+      .finally(() => setLoading(false));  
+  }, [page]);
+
+const totalPages = Math.ceil(count/limit);
 
   return loading ? (
     <h2> Loading...</h2>
   ) : (
     <main>
-      <span>Page: {page} </span>
-      <button onClick={() => setPage((page) => page - 1)}>Prev</button> 
-      <button onClick={() => setPage((page) => page + 1)}>Next</button>
-      <SearchList artists={currentArtists}/>
+      <button 
+        disabled={page < 2} 
+        onClick={() => setPage((page) => page - 1)}>&lt;</button> 
+      <span>{`${page}/${totalPages}`}</span>
+      <button 
+        disabled={page >= totalPages} 
+        onClick={() => setPage((page) => page + 1)}>&gt;</button>
+      <SearchList artists={artists}/>
     </main>
   );
 

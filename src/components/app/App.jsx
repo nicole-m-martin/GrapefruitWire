@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from '../ui/Header';
 import SearchContainer from '../../containers/SearchContainer';
 import ArtistContainer from '../../containers/ArtistContainer';
-// import AlbumContainer from '../../containers/AlbumContainer';
-// import SongContainer from '../../containers/SongContainer';
+import AlbumContainer from '../../containers/AlbumContainer';
+import SongContainer from '../../containers/SongContainer';
 
 export default function App() {
   return (
@@ -13,14 +13,14 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={SearchContainer} />
 
-        <Route exact path="/artist/:artistId"
+        <Route exact path="/artist/:artistId/:artistName"
           component={ArtistContainer} />
 
-        {/* <Route exact path="/album/:id"
-        component={AlbumContainer} /> */}
+        <Route exact path="/album/:albumId/:artistName"
+        component={AlbumContainer} />
 
-        {/* <Route exact path="/song/:id"
-        component={SongContainer} /> */}
+        <Route exact path="/song/:songId/:artistName/:title"
+        component={SongContainer} />
       </Switch>
     </Router>
   );
