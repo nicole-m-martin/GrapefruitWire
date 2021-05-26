@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SearchList from '../components/search/SearchList';
+import search
 import { fetchArtists } from '../services/brainz-api';
 
 const SearchContainer = () => {
@@ -7,18 +8,18 @@ const SearchContainer = () => {
   const [artists, setArtists] = useState([]);
   const [count, setCount] = useState();
   const [page, setPage] = useState(1);
-  const [limit, setLimit] = useState(50)
+  const [limit, setLimit] = useState(50);
 
   useEffect(() => {
     fetchArtists(page, limit)
-      .then(({count, artistsArray}) => {
-        setArtists(artistsArray)
-        setCount(count)
+      .then(({ count, artistsArray }) => {
+        setArtists(artistsArray);
+        setCount(count);
       })
       .finally(() => setLoading(false));  
   }, [page]);
 
-const totalPages = Math.ceil(count/limit);
+  const totalPages = Math.ceil(count / limit);
 
   return loading ? (
     <h2> Loading...</h2>
