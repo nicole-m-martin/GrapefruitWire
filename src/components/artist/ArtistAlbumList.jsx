@@ -29,4 +29,3 @@ ArtistAlbumList.propTypes = {
 };
 
 export default ArtistAlbumList;
-

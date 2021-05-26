@@ -12,7 +12,7 @@ const ArtistAlbumItem = ({ albumId, title, releaseDate }) => {
 
   return (
     <div>
-      <Link to={`/artist/${albumId}`}>
+      <Link to={`/album/${albumId}`}>
         <img src={coverArt} onError={addDefaultSrc} alt={title} />
       </Link>
       <h1>{title}</h1>

@@ -26,3 +26,17 @@ export const fetchAlbums = async (artistId) => {
     releaseDate: album.date,
   }));
 };
+
+export const fetchSongs = async (albumId) => {
+  const res = await fetch(
+    `http://musicbrainz.org/ws/2/recording?release=${albumId}&fmt=json`
+  );
+
+  const data = await res.json();
+  const songs = data.recordings;
+
+  return songs.map((song) => ({
+    songId: song.id,
+    title: song.title,
+  }));
+};
