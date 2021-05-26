@@ -14,6 +14,7 @@ const SongContainer = () => {
             .then(setLyrics)
             .finally(() => setLoading(false));
     }, []);
+    
     return loading ? (
         <h2>Loading...</h2>
     ) : (

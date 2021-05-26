@@ -7,27 +7,33 @@ const ArtistContainer = () => {
   const { artistId } = useParams();
   const [loading, setLoading] = useState(true);
   const [albums, setAlbums] = useState([]);
+  const [count, setCount] = useState();
   const [page, setPage] = useState(1);
-  const [albumsPerPage, setAlbumsPerPage] = useState(10);
-
-  const indexOfLastAlbum = page * albumsPerPage;
-  const indexOfFirstAlbum = indexOfLastAlbum - albumsPerPage;
-  const currentAlbums = albums.slice(indexOfFirstAlbum, indexOfLastAlbum);
+  const [limit, setLimit] = useState(10);
   
   useEffect(() => {
-    fetchAlbums(artistId)
-      .then(setAlbums)
+    fetchAlbums(artistId, page, limit)
+      .then(({count, albumsArray}) => {
+        setAlbums(albumsArray)
+        setCount(count)
+      })
       .finally(() => setLoading(false));
-  }, [setAlbumsPerPage]);
+  }, [page]);
+
+  const totalPages = Math.ceil(count/limit);
   
   return loading ? (
     <h2>Loading...</h2>
   ) : (
     <main>
-      <span>Page: {page} </span>
-      <button onClick={() => setPage((page) => page - 1)}>Prev</button> 
-      <button onClick={() => setPage((page) => page + 1)}>Next</button>
-      <ArtistAlbumList albums={currentAlbums} />
+      <button 
+        disabled={page < 2} 
+        onClick={() => setPage((page) => page - 1)}>&lt;</button> 
+      <span>{`${page}/${totalPages}`}</span>
+      <button 
+        disabled={page >= totalPages} 
+        onClick={() => setPage((page) => page + 1)}>&gt;</button>
+      <ArtistAlbumList albums={albums} />
     </main>
   );
 };

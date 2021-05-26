@@ -1,30 +1,42 @@
-export const fetchArtists = async () => {
+export const fetchArtists = async (page, limit=50) => {
+  const offset = (page * limit) - limit;
+
   const res = await fetch(
-    'http://musicbrainz.org/ws/2/artist?query=the&fmt=json&limit=25'
+    `http://musicbrainz.org/ws/2/artist?query="the who"&fmt=json&limit=${limit}&offset=${offset}`
   );
 
   const data = await res.json();
   const artists = data.artists;
+  const total = data.count;
 
-  return artists.map((artists) => ({
-    artistId: artists.id,
-    name: artists.name,
-  }));
+  return {
+    count: total,
+    artistsArray: artists.map((artists) => ({
+      artistId: artists.id,
+      name: artists.name,
+    }))
+  }  
 };
 
-export const fetchAlbums = async (artistId) => {
+export const fetchAlbums = async (artistId, page, limit=50) => {
+  const offset = (page * limit) - limit;
+
   const res = await fetch(
-    `http://musicbrainz.org/ws/2/release?artist=${artistId}&fmt=json`
+    `http://musicbrainz.org/ws/2/release?artist=${artistId}&fmt=json&limit=${limit}&offset=${offset}`
   );
 
   const data = await res.json();
   const albums = data.releases;
+  const total = data.count;
 
-  return albums.map((album) => ({
-    albumId: album.id,
-    title: album.title,
-    releaseDate: album.date,
-  }));
+  return {
+    count: total,
+    albumsArray: albums.map((album) => ({
+      albumId: album.id,
+      title: album.title,
+      releaseDate: album.date,
+    }))
+  }
 };
 
 export const fetchSongs = async (albumId) => {
