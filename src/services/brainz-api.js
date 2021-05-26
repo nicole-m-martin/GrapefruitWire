@@ -1,13 +1,13 @@
 export const fetchArtists = async () => {
   const res = await fetch(
-    `http://musicbrainz.org/ws/2/artist?query=beyonce&fmt=json&limit=25`
+    'http://musicbrainz.org/ws/2/artist?query=the&fmt=json&limit=25'
   );
 
   const data = await res.json();
   const artists = data.artists;
 
   return artists.map((artists) => ({
-    id: artists.id,
+    artistId: artists.id,
     name: artists.name,
   }));
 };

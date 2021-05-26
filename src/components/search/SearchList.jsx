@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SearchItem from './SearchItem';
-
+import style from '../app/App.css';
 function SearchList({ artists }) {
   return (
-    <ul>
+    <ul className={style.list}>
       {artists.map((artist) => 
-        (<li key={artist.id}>
+        (<li key={artist.artistId}>
           <SearchItem
             name={artist.name}
+            artistId={artist.artistId}
           />
 
         </li>
@@ -21,7 +22,7 @@ function SearchList({ artists }) {
 SearchList.propTypes = {
   artists: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string.isRequired,
+      artistId: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
     }).isRequired
   ).isRequired
