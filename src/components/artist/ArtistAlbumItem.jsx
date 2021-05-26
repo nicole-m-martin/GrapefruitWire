@@ -2,13 +2,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-
+import grapefruit from '../../../public/grapefruit.jpeg';
 
 const ArtistAlbumItem = ({ albumId, title, releaseDate }) => {
+  const coverArt = `http://coverartarchive.org/release/${albumId}/front`;
+  const addDefaultSrc = (e) => {
+    e.target.src = grapefruit;
+  };
+
   return (
     <div>
       <Link to={`/artist/${albumId}`}>
-        <img src={`http://coverartarchive.org/release/${albumId}/front`} alt={title} />;
+        <img src={coverArt} onError={addDefaultSrc} />
       </Link>
       <h1>{title}</h1>
       <p>{releaseDate}</p>
