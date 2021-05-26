@@ -7,10 +7,9 @@ const SearchItem = ({ name, artistId }) => {
   return (
     <div>
 
-      <Link to={`/artist/${artistId}`}>
+      <Link to={`/artist/${artistId}/${name}`}>
         <h1>Name: {name}</h1>
       </Link>
-      
     </div>
   );
 };

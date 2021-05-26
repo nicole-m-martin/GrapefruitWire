@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import grapefruit from '../../../public/grapefruit.jpeg';
 
 const ArtistAlbumItem = ({ albumId, title, releaseDate }) => {
@@ -10,9 +10,11 @@ const ArtistAlbumItem = ({ albumId, title, releaseDate }) => {
     e.target.src = grapefruit;
   };
 
+  const { artistName } = useParams();
+
   return (
     <div>
-      <Link to={`/album/${albumId}`}>
+      <Link to={`/album/${albumId}/${artistName}`}>
         <img src={coverArt} onError={addDefaultSrc} alt={title} />
       </Link>
       <h1>{title}</h1>
