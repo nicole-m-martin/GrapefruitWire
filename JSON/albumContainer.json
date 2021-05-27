@@ -1,0 +1,46 @@
+{
+    "recording-offset": 0,
+    "recording-count": 5,
+    "recordings": [
+    {
+    "title": "Red Light Special (radio edit)",
+    "length": 284000,
+    "disambiguation": "",
+    "id": "10648c2d-15f4-4973-bb8f-abd930fc7e7e",
+    "first-release-date": "1995-02-27",
+    "video": false
+    },
+    {
+    "title": "My Secret Enemy",
+    "length": 335000,
+    "disambiguation": "",
+    "first-release-date": "1995-02-27",
+    "id": "2bd3b0b0-b569-49ef-aa28-92c08d79cc77",
+    "video": false
+    },
+    {
+    "length": 271000,
+    "title": "Red Light Special (L.A.'s Flava mix)",
+    "id": "a8ea5e02-7d7e-4c7b-9fff-512a25334240",
+    "first-release-date": "1995-02-27",
+    "disambiguation": "",
+    "video": false
+    },
+    {
+    "video": false,
+    "disambiguation": "",
+    "first-release-date": "1995-02-27",
+    "id": "b2eb86fd-23b7-486e-bf22-c0db8e0cf798",
+    "title": "Red Light Special (Gerald Hall's remix)",
+    "length": 312000
+    },
+    {
+    "length": 306000,
+    "title": "Red Light Special (album version)",
+    "disambiguation": "",
+    "first-release-date": "1995-02-27",
+    "id": "ca491b28-634f-4956-960a-8aad0b5c0538",
+    "video": false
+    }
+    ]
+    }
