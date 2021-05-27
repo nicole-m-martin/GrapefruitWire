@@ -1,11 +1,13 @@
-export const fetchArtists = async (page, limit=50) => {
+export const fetchArtists = async (query, page, limit = 50) => {
   const offset = (page * limit) - limit;
 
   const res = await fetch(
-    `http://musicbrainz.org/ws/2/artist?query="the who"&fmt=json&limit=${limit}&offset=${offset}`
+    // eslint-disable-next-line max-len
+    `http://musicbrainz.org/ws/2/artist?query=${query}&fmt=json&limit=${limit}&offset=${offset}`
   );
 
   const data = await res.json();
+  console.log(data, 'API DATA ARTIST')
   const artists = data.artists;
   const total = data.count;
 
@@ -15,19 +17,21 @@ export const fetchArtists = async (page, limit=50) => {
       artistId: artists.id,
       name: artists.name,
     }))
-  }  
+  };  
 };
 
-export const fetchAlbums = async (artistId, page, limit=50) => {
+export const fetchAlbums = async (artistId, page, limit = 10) => {
   const offset = (page * limit) - limit;
 
   const res = await fetch(
+    // eslint-disable-next-line max-len
     `http://musicbrainz.org/ws/2/release?artist=${artistId}&fmt=json&limit=${limit}&offset=${offset}`
   );
 
   const data = await res.json();
   const albums = data.releases;
-  const total = data.count;
+  const total = data['release-count'];
+
 
   return {
     count: total,
@@ -36,7 +40,7 @@ export const fetchAlbums = async (artistId, page, limit=50) => {
       title: album.title,
       releaseDate: album.date,
     }))
-  }
+  };
 };
 
 export const fetchSongs = async (albumId) => {

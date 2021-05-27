@@ -13,14 +13,14 @@ const ArtistContainer = () => {
   
   useEffect(() => {
     fetchAlbums(artistId, page, limit)
-      .then(({count, albumsArray}) => {
-        setAlbums(albumsArray)
-        setCount(count)
+      .then(({count, albumsArray }) => {
+        setAlbums(albumsArray);
+        setCount(count);
       })
       .finally(() => setLoading(false));
   }, [page]);
 
-  const totalPages = Math.ceil(count/limit);
+  const totalPages = Math.ceil(count / limit);
   
   return loading ? (
     <h2>Loading...</h2>

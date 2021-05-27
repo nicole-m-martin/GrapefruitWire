@@ -4,23 +4,23 @@ import AlbumSongList from '../components/album/AlbumSongList';
 import { fetchSongs } from '../services/brainz-api';
 
 const AlbumContainer = () => {
-    const { albumId } = useParams();
-    const [loading, setLoading] = useState(true);
-    const [songs, setSongs] = useState([]);
+  const { albumId } = useParams();
+  const [loading, setLoading] = useState(true);
+  const [songs, setSongs] = useState([]);
 
-    useEffect(() => {
-        fetchSongs(albumId)
-            .then(setSongs)
-            .finally(() => setLoading(false));
-    }, []);
+  useEffect(() => {
+    fetchSongs(albumId)
+      .then(setSongs)
+      .finally(() => setLoading(false));
+  }, []);
 
-    return loading ? (
-        <h2>Loading...</h2>
-    ) : (
-        <main>
-            <AlbumSongList songs={songs} />
-        </main>
-    );
+  return loading ? (
+    <h2>Loading...</h2>
+  ) : (
+    <main>
+      <AlbumSongList songs={songs} />
+    </main>
+  );
 };
 
 export default AlbumContainer;
