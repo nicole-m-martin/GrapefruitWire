@@ -6,9 +6,12 @@ export default class Header extends Component {
   render() {
     return (
       <header>
-        <img className={style.grapefruitelogo} src={'../../../public/FullSizeRender-removebg-preview (1).png'} alt={'logo'} />
+        <div className={style.headerContainer}>
+          <img className={style.grapefruitelogo} src={'../../../public/FullSizeRender-removebg-preview (1).png'} alt={'logo'} />
+          <h1 className={style.headerTitle}>GrapefruitWire</h1>
+        </div>
         <NavLink exact to="/">
-          Search
+          Home
         </NavLink>
       </header>
     );

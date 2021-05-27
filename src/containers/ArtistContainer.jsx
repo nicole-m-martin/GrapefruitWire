@@ -13,7 +13,7 @@ const ArtistContainer = () => {
   
   useEffect(() => {
     fetchAlbums(artistId, page, limit)
-      .then(({count, albumsArray }) => {
+      .then(({ count, albumsArray }) => {
         setAlbums(albumsArray);
         setCount(count);
       })

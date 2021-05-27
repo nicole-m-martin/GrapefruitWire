@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, useParams } from 'react-router-dom';
 import grapefruit from '../../../public/grapefruit.jpeg';
+import style from  '../app/App.css';
 
 const ArtistAlbumItem = ({ albumId, title, releaseDate }) => {
   const coverArt = `http://coverartarchive.org/release/${albumId}/front`;
@@ -13,7 +14,7 @@ const ArtistAlbumItem = ({ albumId, title, releaseDate }) => {
   const { artistName } = useParams();
 
   return (
-    <div>
+    <div className={style.artistAlbum}>
       <Link to={`/album/${albumId}/${artistName}`}>
         <img src={coverArt} onError={addDefaultSrc} alt={title} />
       </Link>
