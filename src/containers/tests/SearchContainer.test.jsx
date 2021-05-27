@@ -13,12 +13,11 @@ import beyonceSearch from '../../../JSON/beyonceSearch.json';
 
 const server = setupServer(
   rest.get('http://musicbrainz.org/ws/2/artist', (req, res, ctx) => {
-    console.log('this is it');
     const query = req.url.searchParams;
     // const query = query.get('query');
-    const fmt = query.get('fmt');
-    const limit = query.get('limit');
-    const offset = query.get('offset');
+    query.get('fmt');
+    query.get('limit');
+    query.get('offset');
     return res(ctx.json(beyonceSearch));
   })
 );
