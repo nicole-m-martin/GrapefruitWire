@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`album container fetches albums adn renders songs to the page 1`] = `Promise {}`;
