@@ -18,7 +18,7 @@ const SearchContainer = () => {
         setArtists(artistsArray);
         setCount(count);
       })
-      .finally(() => setLoading(false));  
+      .finally(() => setLoading(false));
   };
 
   const handleOnChange = ({ target }) => {
@@ -31,37 +31,42 @@ const SearchContainer = () => {
         setArtists(artistsArray);
         setCount(count);
       })
-      .finally(() => setLoading(false));  
+      .finally(() => setLoading(false));
   }, [page]);
 
   const totalPages = Math.ceil(count / limit);
-  console.log(totalPages, 'TOTAL ')
 
   return loading ? (
     <h2> Loading...</h2>
   ) : (
     <main>
-      <Search 
-        searchQuery={searchQuery} 
-        onSearchChange={handleOnChange} 
+      <Search
+        searchQuery={searchQuery}
+        onSearchChange={handleOnChange}
         onSubmit={handleOnSubmit}
       />
-      {totalPages > 0 && <>
-        <button 
-          disabled={page < 2} 
-          onClick={() => setPage((page) => page - 1)}>&lt;</button> 
-     
-        <span>{`${page}/${totalPages}`}</span>
-      
-        <button 
-          disabled={page >= totalPages} 
-          onClick={() => setPage((page) => page + 1)}>&gt;</button>
-      </> }
-      <SearchList artists={artists}/>
+      {totalPages > 0 && (
+        <>
+          <button
+            disabled={page < 2}
+            onClick={() => setPage((page) => page - 1)}
+          >
+            &lt;
+          </button>
+
+          <span>{`${page}/${totalPages}`}</span>
+
+          <button
+            disabled={page >= totalPages}
+            onClick={() => setPage((page) => page + 1)}
+          >
+            &gt;
+          </button>
+        </>
+      )}
+      <SearchList artists={artists} />
     </main>
   );
-
 };
 
 export default SearchContainer;
-
