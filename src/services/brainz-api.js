@@ -1,5 +1,5 @@
 export const fetchArtists = async (query, page, limit = 50) => {
-  const offset = (page * limit) - limit;
+  const offset = page * limit - limit;
 
   const res = await fetch(
     // eslint-disable-next-line max-len
@@ -7,7 +7,7 @@ export const fetchArtists = async (query, page, limit = 50) => {
   );
 
   const data = await res.json();
-  console.log(data, 'API DATA ARTIST')
+  // console.log(data.artists, 'API DATA ARTISTS');
   const artists = data.artists;
   const total = data.count;
 
@@ -16,12 +16,12 @@ export const fetchArtists = async (query, page, limit = 50) => {
     artistsArray: artists.map((artists) => ({
       artistId: artists.id,
       name: artists.name,
-    }))
-  };  
+    })),
+  };
 };
 
 export const fetchAlbums = async (artistId, page, limit = 10) => {
-  const offset = (page * limit) - limit;
+  const offset = page * limit - limit;
 
   const res = await fetch(
     // eslint-disable-next-line max-len
@@ -32,14 +32,13 @@ export const fetchAlbums = async (artistId, page, limit = 10) => {
   const albums = data.releases;
   const total = data['release-count'];
 
-
   return {
     count: total,
     albumsArray: albums.map((album) => ({
       albumId: album.id,
       title: album.title,
       releaseDate: album.date,
-    }))
+    })),
   };
 };
 

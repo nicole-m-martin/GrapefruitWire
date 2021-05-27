@@ -11,7 +11,8 @@
     "moduleNameMapper": {
       "\\.(css)$": "identity-obj-proxy",
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
-    }
+    },
+    "testEnvironment": "jsdom"
   },
   "scripts": {
     "test": "jest --verbose",
@@ -64,6 +65,7 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"
   }
 }

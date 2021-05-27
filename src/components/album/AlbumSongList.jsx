@@ -3,27 +3,24 @@ import React from 'react';
 import AlbumSongItem from './AlbumSongItem';
 
 function AlbumSongList({ songs }) {
-    return (
-        <ul>
-            {songs.map((song) => (
-                <li key={song.songId}>
-                    <AlbumSongItem
-                        songId={song.songId}
-                        title={song.title}
-                        />
-                </li>
-            ))}
-        </ul>
-    );
-};
+  return (
+    <ul aria-label="songs">
+      {songs.map((song) => (
+        <li key={song.songId}>
+          <AlbumSongItem songId={song.songId} title={song.title} />
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 AlbumSongList.propTypes = {
-    songs: PropTypes.arrayOf(
-        PropTypes.shape({
-            songId: PropTypes.string.isRequired,
-            title: PropTypes.string.isRequired,
-        }).isRequired
-    ).isRequired
+  songs: PropTypes.arrayOf(
+    PropTypes.shape({
+      songId: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+    }).isRequired
+  ).isRequired,
 };
 
 export default AlbumSongList;

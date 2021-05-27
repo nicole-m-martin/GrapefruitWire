@@ -1,0 +1,472 @@
+{
+  "created": "2021-05-27T16:46:53.214Z",
+  "count": 8,
+  "offset": 0,
+  "artists": [
+    {
+      "id": "859d0860-d480-4efd-970c-c05d5f1776b8",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 100,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Beyoncé",
+      "sort-name": "Beyoncé",
+      "gender": "female",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "c920948b-83e3-40b7-8fe9-9ab5abaac55b",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Houston",
+        "sort-name": "Houston",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "US singer, songwriter, record producer & actress",
+      "ipis": ["00341826274"],
+      "isnis": ["0000000114914936"],
+      "life-span": {
+        "begin": "1981-09-04",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Knowles-Carter, Beyoncé",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Beyoncé Knowles-Carter",
+          "locale": "en",
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "ビヨンセ",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "ビヨンセ",
+          "locale": "ja",
+          "type": "Artist name",
+          "primary": true,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Beyonce",
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+          "name": "Beyonce",
+          "locale": null,
+          "type": "Search hint",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Beyonce'",
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+          "name": "Beyonce'",
+          "locale": null,
+          "type": "Search hint",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "B1C",
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+          "name": "B1C",
+          "locale": null,
+          "type": "Search hint",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Knowles-Carter, Beyoncé Giselle",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Beyoncé Giselle Knowles-Carter",
+          "locale": "en",
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": "2008-04-04",
+          "end-date": null
+        },
+        {
+          "sort-name": "Knowles, Beyoncé Giselle",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Beyoncé Giselle Knowles",
+          "locale": "en",
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": "1981-09-04",
+          "end-date": "2008-04-03"
+        },
+        {
+          "sort-name": "Knowles, Beyoncé",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Beyoncé Knowles",
+          "locale": "en",
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Queen Bey",
+          "name": "Queen Bey",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "hard rock"
+        },
+        {
+          "count": 0,
+          "name": "funk"
+        },
+        {
+          "count": 0,
+          "name": "country"
+        },
+        {
+          "count": 2,
+          "name": "soul"
+        },
+        {
+          "count": 0,
+          "name": "electropop"
+        },
+        {
+          "count": 0,
+          "name": "rnb"
+        },
+        {
+          "count": 0,
+          "name": "dance-pop"
+        },
+        {
+          "count": 2,
+          "name": "pop rap"
+        },
+        {
+          "count": -1,
+          "name": "hip hop rnb and dance hall"
+        },
+        {
+          "count": 1,
+          "name": "grammy winner"
+        },
+        {
+          "count": 2,
+          "name": "r&b"
+        },
+        {
+          "count": 4,
+          "name": "contemporary r&b"
+        },
+        {
+          "count": 0,
+          "name": "mbs-333"
+        },
+        {
+          "count": 0,
+          "name": "art pop"
+        },
+        {
+          "count": 0,
+          "name": "alternative r&b"
+        },
+        {
+          "count": 1,
+          "name": "moombahton"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop"
+        }
+      ]
+    },
+    {
+      "id": "16b6e943-bb61-471d-ba53-689a453e54fb",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 49,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Mădălina",
+      "sort-name": "Mădălina",
+      "gender": "female",
+      "country": "RO",
+      "area": {
+        "id": "61ed84b8-5a10-30a7-8376-ccd51801d6d1",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Romania",
+        "sort-name": "Romania",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "61ed84b8-5a10-30a7-8376-ccd51801d6d1",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Romania",
+        "sort-name": "Romania",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "Romanian manele singer",
+      "life-span": {
+        "begin": "1992-04-08",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Beyonce de România",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Beyonce de România",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Dumitriu, Mădălina Georgiana",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Mădălina Georgiana Dumitriu",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "romanian singer"
+        },
+        {
+          "count": 1,
+          "name": "romanian"
+        }
+      ]
+    },
+    {
+      "id": "cf71e106-1003-4390-8477-cf268229df66",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 48,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Ludmilla",
+      "sort-name": "Ludmilla",
+      "gender": "female",
+      "country": "BR",
+      "area": {
+        "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Brazil",
+        "sort-name": "Brazil",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "9443d4f5-668c-4f30-96bd-6caf831de30f",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Rio de Janeiro",
+        "sort-name": "Rio de Janeiro",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "Brazilian singer",
+      "life-span": {
+        "begin": "1995-04-24",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Silva, Ludmilla Oliveira da",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Ludmilla Oliveira da Silva",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "MC Ludmilla",
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+          "name": "MC Ludmilla",
+          "locale": null,
+          "type": "Search hint",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "MC Beyoncé",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "MC Beyoncé",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "7d2dedfb-1369-4912-a7a5-7a7cc4ef0e66",
+      "type": "Character",
+      "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+      "score": 41,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Bayonse",
+      "sort-name": "Bayonse",
+      "gender": "female",
+      "disambiguation": "Parody of Beyoncé",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "4a865087-4319-44cb-afe9-bc6ca51b1523",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 40,
+      "name": "THE CARTERS",
+      "sort-name": "CARTERS, The",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "Beyoncé & JAY-Z",
+      "life-span": {
+        "begin": "2018",
+        "ended": null
+      },
+      "tags": [
+        {
+          "count": 1,
+          "name": "grammy winner"
+        },
+        {
+          "count": 1,
+          "name": "contemporary r&b"
+        },
+        {
+          "count": 1,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "trap"
+        }
+      ]
+    },
+    {
+      "id": "a03c1563-8429-4b4c-b892-bc8b8221b56a",
+      "score": 33,
+      "name": "MG",
+      "sort-name": "MG",
+      "disambiguation": "Beyonce Ft. Ebeezy, Pacino & Lil Flame",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "a24d9bad-1967-4500-92e3-ab7f88a7976f",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 33,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Olli Collins",
+      "sort-name": "Collins, Olli",
+      "gender": "male",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "UK based DJ/Remixer (Beyoncé, Usher etc)",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "528b6793-a819-42cb-a664-07d54a278105",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 33,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Fred Portelli",
+      "sort-name": "Portelli, Fred",
+      "gender": "male",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "UK based DJ/Remixer (Beyoncé, Usher etc)",
+      "life-span": {
+        "ended": null
+      }
+    }
+  ]
+}

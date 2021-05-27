@@ -4,17 +4,12 @@ import SearchItem from './SearchItem';
 import style from '../app/App.css';
 function SearchList({ artists }) {
   return (
-    <ul className={style.list}>
-      {artists.map((artist) => 
-        (<li key={artist.artistId}>
-          <SearchItem
-            name={artist.name}
-            artistId={artist.artistId}
-          />
-
+    <ul aria-label="artistList" className={style.list}>
+      {artists.map((artist) => (
+        <li key={artist.artistId}>
+          <SearchItem name={artist.name} artistId={artist.artistId} />
         </li>
-        ))}
-            
+      ))}
     </ul>
   );
 }
@@ -25,8 +20,7 @@ SearchList.propTypes = {
       artistId: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
     }).isRequired
-  ).isRequired
+  ).isRequired,
 };
 
 export default SearchList;
-
