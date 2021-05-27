@@ -7,6 +7,7 @@ export const fetchArtists = async (query, page, limit = 50) => {
   );
 
   const data = await res.json();
+  console.log(data, 'API DATA ARTIST')
   const artists = data.artists;
   const total = data.count;
 

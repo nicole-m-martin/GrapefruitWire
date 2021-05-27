@@ -2,9 +2,6 @@ import React from 'react';
 
 export default function Search({ searchQuery, onSearchChange, onSubmit }) {
 
-    const [searchQuery, setSearchQuery] = 
-
-
   return (
     <form onSubmit={onSubmit}>
       <label htmlFor="query">Search: </label>
