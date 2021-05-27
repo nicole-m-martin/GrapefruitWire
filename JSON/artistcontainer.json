@@ -1,0 +1,1031 @@
+{
+    "release-count": 94,
+    "releases": [
+    {
+    "disambiguation": "",
+    "status": "Official",
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "quality": "normal",
+    "date": "1995-02-27",
+    "release-events": [
+    {
+    "date": "1995-02-27",
+    "area": {
+    "iso-3166-1-codes": [
+    "US"
+    ],
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": null,
+    "sort-name": "United States",
+    "disambiguation": "",
+    "name": "United States",
+    "type-id": null
+    }
+    }
+    ],
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "packaging": "Jewel Case",
+    "id": "027eea17-113a-4355-8c9b-5a12e08b7275",
+    "title": "Red Light Special",
+    "asin": "B000007NZB",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "country": "US",
+    "cover-art-archive": {
+    "darkened": false,
+    "front": true,
+    "count": 2,
+    "back": true,
+    "artwork": true
+    },
+    "barcode": "730082409926"
+    },
+    {
+    "title": "CrazySexyCool",
+    "asin": null,
+    "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+    },
+    "country": "US",
+    "cover-art-archive": {
+    "back": false,
+    "artwork": false,
+    "count": 0,
+    "darkened": false,
+    "front": false
+    },
+    "barcode": "",
+    "disambiguation": "",
+    "status": "Official",
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "date": "1994",
+    "quality": "normal",
+    "release-events": [
+    {
+    "area": {
+    "type": null,
+    "iso-3166-1-codes": [
+    "US"
+    ],
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type-id": null,
+    "disambiguation": "",
+    "sort-name": "United States",
+    "name": "United States"
+    },
+    "date": "1994"
+    }
+    ],
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "packaging": "Jewel Case",
+    "id": "0bb14a88-2952-4bd2-9fde-fde555429435"
+    },
+    {
+    "id": "126b591e-7154-4143-a46d-a73be5e1a80e",
+    "packaging": null,
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "quality": "normal",
+    "release-events": [
+    {
+    "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "iso-3166-1-codes": [
+    "GB"
+    ],
+    "type": null,
+    "name": "United Kingdom",
+    "disambiguation": "",
+    "sort-name": "United Kingdom",
+    "type-id": null
+    },
+    "date": "1995-07-21"
+    }
+    ],
+    "date": "1995-07-21",
+    "packaging-id": null,
+    "status": "Official",
+    "disambiguation": "",
+    "barcode": "730082410823",
+    "cover-art-archive": {
+    "back": false,
+    "artwork": false,
+    "count": 0,
+    "front": false,
+    "darkened": false
+    },
+    "country": "GB",
+    "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+    },
+    "asin": "B000057XQX",
+    "title": "Waterfalls"
+    },
+    {
+    "packaging": "Jewel Case",
+    "id": "141ea0a2-e65b-44c4-b905-7de1ef2a5ef3",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "status": "Official",
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "release-events": [
+    {
+    "date": "1994",
+    "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "iso-3166-1-codes": [
+    "US"
+    ],
+    "type": null,
+    "name": "United States",
+    "disambiguation": "",
+    "sort-name": "United States",
+    "type-id": null
+    }
+    }
+    ],
+    "quality": "normal",
+    "date": "1994",
+    "disambiguation": "",
+    "cover-art-archive": {
+    "artwork": false,
+    "back": false,
+    "count": 0,
+    "darkened": false,
+    "front": false
+    },
+    "barcode": "730082600927",
+    "country": "US",
+    "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+    },
+    "title": "CrazySexyCool",
+    "asin": null
+    },
+    {
+    "id": "3e6e484c-d0dd-4fc2-bc1b-3b9d80ecd17b",
+    "packaging": "Jewel Case",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "status": "Official",
+    "quality": "normal",
+    "release-events": [
+    {
+    "date": "1992-02-25",
+    "area": {
+    "type-id": null,
+    "sort-name": "United States",
+    "disambiguation": "",
+    "name": "United States",
+    "type": null,
+    "iso-3166-1-codes": [
+    "US"
+    ],
+    "id": "489ce91b-6658-3307-9877-795b68554c98"
+    }
+    }
+    ],
+    "date": "1992-02-25",
+    "disambiguation": "",
+    "barcode": "730082600323",
+    "cover-art-archive": {
+    "count": 1,
+    "back": false,
+    "artwork": true,
+    "front": true,
+    "darkened": false
+    },
+    "country": "US",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "title": "Ooooooohhh…On the TLC Tip",
+    "asin": "B0000013G1"
+    },
+    {
+    "id": "44b4a222-f335-3121-8433-5e1948a09ce4",
+    "packaging": null,
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "packaging-id": null,
+    "status": "Official",
+    "release-events": [
+    {
+    "area": {
+    "disambiguation": "",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "type-id": null,
+    "iso-3166-1-codes": [
+    "GB"
+    ],
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": null
+    },
+    "date": "1992"
+    }
+    ],
+    "quality": "normal",
+    "date": "1992",
+    "disambiguation": "",
+    "barcode": "4007192628780",
+    "cover-art-archive": {
+    "count": 0,
+    "artwork": false,
+    "back": false,
+    "front": false,
+    "darkened": false
+    },
+    "country": "GB",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "title": "Ooooooohhh ... On the TLC Tip",
+    "asin": "B000024813"
+    },
+    {
+    "disambiguation": "",
+    "status": "Official",
+    "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+    "quality": "normal",
+    "release-events": [
+    {
+    "date": "1994",
+    "area": {
+    "iso-3166-1-codes": [
+    "FR"
+    ],
+    "id": "08310658-51eb-3801-80de-5a0739207115",
+    "type": null,
+    "name": "France",
+    "disambiguation": "",
+    "sort-name": "France",
+    "type-id": null
+    }
+    }
+    ],
+    "date": "1994",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "packaging": "Cardboard/Paper Sleeve",
+    "id": "527387fa-18d0-4dd1-a7dd-9c9bcfdf7e12",
+    "title": "Creep",
+    "asin": null,
+    "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+    },
+    "country": "FR",
+    "cover-art-archive": {
+    "count": 0,
+    "artwork": false,
+    "back": false,
+    "front": false,
+    "darkened": false
+    },
+    "barcode": "743212571127"
+    },
+    {
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "id": "55fe64ac-4688-4942-be1e-3be1c92dbb45",
+    "packaging": "Jewel Case",
+    "disambiguation": "",
+    "date": "1994",
+    "quality": "normal",
+    "release-events": [
+    {
+    "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "iso-3166-1-codes": [
+    "US"
+    ],
+    "type": null,
+    "name": "United States",
+    "disambiguation": "",
+    "sort-name": "United States",
+    "type-id": null
+    },
+    "date": "1994"
+    }
+    ],
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "status": "Official",
+    "country": "US",
+    "barcode": "0208311106250",
+    "cover-art-archive": {
+    "count": 12,
+    "back": true,
+    "artwork": true,
+    "front": true,
+    "darkened": false
+    },
+    "asin": null,
+    "title": "CrazySexyCool",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    }
+    },
+    {
+    "cover-art-archive": {
+    "count": 1,
+    "artwork": true,
+    "back": false,
+    "darkened": false,
+    "front": true
+    },
+    "barcode": "730082600927",
+    "country": "AU",
+    "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+    },
+    "title": "CrazySexyCool",
+    "asin": null,
+    "packaging": "Jewel Case",
+    "id": "57323e7c-7f5c-497b-a838-39cf3ef6b95b",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "status": "Official",
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "quality": "normal",
+    "release-events": [
+    {
+    "area": {
+    "type-id": null,
+    "disambiguation": "",
+    "sort-name": "Australia",
+    "name": "Australia",
+    "type": null,
+    "iso-3166-1-codes": [
+    "AU"
+    ],
+    "id": "106e0bec-b638-3b37-b731-f53d507dc00e"
+    },
+    "date": "1994"
+    }
+    ],
+    "date": "1994",
+    "disambiguation": ""
+    },
+    {
+    "cover-art-archive": {
+    "darkened": false,
+    "front": false,
+    "back": false,
+    "artwork": false,
+    "count": 0
+    },
+    "barcode": "730082600323",
+    "country": "XW",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "asin": null,
+    "title": "Ooooooohhh... On The TLC Tip",
+    "packaging": "None",
+    "id": "7b401077-6f26-4fdc-86d5-542b6ffb4894",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "quality": "normal",
+    "release-events": [
+    {
+    "area": {
+    "type-id": null,
+    "disambiguation": "",
+    "sort-name": "[Worldwide]",
+    "name": "[Worldwide]",
+    "type": null,
+    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+    "iso-3166-1-codes": [
+    "XW"
+    ]
+    },
+    "date": "1992-02-25"
+    }
+    ],
+    "date": "1992-02-25",
+    "status": "Official",
+    "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+    "disambiguation": ""
+    },
+    {
+    "title": "CrazySexyCool",
+    "asin": "B0000013G9",
+    "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+    },
+    "country": "US",
+    "barcode": "730082600927",
+    "cover-art-archive": {
+    "count": 4,
+    "back": true,
+    "artwork": true,
+    "front": true,
+    "darkened": false
+    },
+    "disambiguation": "",
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "status": "Official",
+    "quality": "normal",
+    "release-events": [
+    {
+    "date": "1994-11-15",
+    "area": {
+    "type-id": null,
+    "disambiguation": "",
+    "sort-name": "United States",
+    "name": "United States",
+    "type": null,
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "iso-3166-1-codes": [
+    "US"
+    ]
+    }
+    }
+    ],
+    "date": "1994-11-15",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "id": "821cfaab-a24e-4274-80d5-4b7eb96734f0",
+    "packaging": "Jewel Case"
+    },
+    {
+    "asin": "B000007NZA",
+    "title": "Creep",
+    "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+    },
+    "country": "US",
+    "barcode": "730082408820",
+    "cover-art-archive": {
+    "count": 1,
+    "back": false,
+    "artwork": true,
+    "darkened": false,
+    "front": true
+    },
+    "disambiguation": "",
+    "release-events": [
+    {
+    "area": {
+    "disambiguation": "",
+    "name": "United States",
+    "sort-name": "United States",
+    "type-id": null,
+    "iso-3166-1-codes": [
+    "US"
+    ],
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": null
+    },
+    "date": "1994"
+    }
+    ],
+    "quality": "normal",
+    "date": "1994",
+    "packaging-id": null,
+    "status": "Official",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "id": "889ff210-b0df-4bca-8abc-eb2b22d101c1",
+    "packaging": null
+    },
+    {
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "title": "Diggin’ on You",
+    "asin": "B00004WQQ3",
+    "barcode": "743213192420",
+    "cover-art-archive": {
+    "front": false,
+    "darkened": false,
+    "count": 0,
+    "artwork": false,
+    "back": false
+    },
+    "country": "GB",
+    "packaging-id": null,
+    "status": "Official",
+    "date": "1995-10-19",
+    "quality": "normal",
+    "release-events": [
+    {
+    "area": {
+    "name": "United Kingdom",
+    "disambiguation": "",
+    "sort-name": "United Kingdom",
+    "type-id": null,
+    "iso-3166-1-codes": [
+    "GB"
+    ],
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": null
+    },
+    "date": "1995-10-19"
+    }
+    ],
+    "disambiguation": "",
+    "id": "89f4b93a-c6a9-48fb-9709-1389ad44a3fa",
+    "packaging": null,
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+    "barcode": "730082600927",
+    "cover-art-archive": {
+    "front": true,
+    "darkened": false,
+    "back": true,
+    "artwork": true,
+    "count": 4
+    },
+    "country": "CA",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "asin": "B0000013G9",
+    "title": "CrazySexyCool",
+    "id": "8b30b77a-ad75-366c-b30c-54fff14ad548",
+    "packaging": null,
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "quality": "normal",
+    "date": "1994",
+    "release-events": [
+    {
+    "date": "1994",
+    "area": {
+    "sort-name": "Canada",
+    "disambiguation": "",
+    "name": "Canada",
+    "type-id": null,
+    "iso-3166-1-codes": [
+    "CA"
+    ],
+    "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+    "type": null
+    }
+    }
+    ],
+    "packaging-id": null,
+    "status": "Official",
+    "disambiguation": ""
+    },
+    {
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "status": "Official",
+    "quality": "normal",
+    "date": "1994",
+    "release-events": [
+    {
+    "date": "1994",
+    "area": {
+    "type": null,
+    "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+    "iso-3166-1-codes": [
+    "XE"
+    ],
+    "type-id": null,
+    "disambiguation": "",
+    "sort-name": "Europe",
+    "name": "Europe"
+    }
+    }
+    ],
+    "disambiguation": "",
+    "id": "8dbeeea9-6aa8-4220-8190-bef6060677d0",
+    "packaging": "Jewel Case",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "title": "CrazySexyCool",
+    "asin": null,
+    "barcode": "730082600927",
+    "cover-art-archive": {
+    "darkened": false,
+    "front": true,
+    "count": 13,
+    "back": true,
+    "artwork": true
+    },
+    "country": "XE"
+    },
+    {
+    "packaging": "Jewel Case",
+    "id": "8f9d3dde-c627-4982-9f7e-7a21e3d4bf6a",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "status": "Official",
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "quality": "normal",
+    "date": "1992-05-29",
+    "release-events": [
+    {
+    "area": {
+    "type": null,
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "iso-3166-1-codes": [
+    "GB"
+    ],
+    "type-id": null,
+    "disambiguation": "",
+    "sort-name": "United Kingdom",
+    "name": "United Kingdom"
+    },
+    "date": "1992-05-29"
+    }
+    ],
+    "disambiguation": "",
+    "cover-art-archive": {
+    "front": true,
+    "darkened": false,
+    "artwork": true,
+    "back": false,
+    "count": 1
+    },
+    "barcode": "743211112925",
+    "country": "GB",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "title": "Baby-Baby-Baby",
+    "asin": null
+    },
+    {
+    "quality": "normal",
+    "release-events": [
+    {
+    "area": {
+    "disambiguation": "",
+    "sort-name": "Netherlands",
+    "name": "Netherlands",
+    "type-id": null,
+    "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7",
+    "iso-3166-1-codes": [
+    "NL"
+    ],
+    "type": null
+    },
+    "date": "1994"
+    }
+    ],
+    "date": "1994",
+    "status": "Official",
+    "packaging-id": null,
+    "disambiguation": "",
+    "packaging": null,
+    "id": "9b5db51d-5d36-39e0-a7b3-16ef49b36066",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "asin": null,
+    "title": "CrazySexyCool",
+    "cover-art-archive": {
+    "darkened": false,
+    "front": true,
+    "artwork": true,
+    "back": false,
+    "count": 1
+    },
+    "barcode": "743213024226",
+    "country": "NL"
+    },
+    {
+    "packaging-id": "36327bc2-f691-3d66-80e5-bd03cec6060a",
+    "status": "Official",
+    "quality": "normal",
+    "date": "1995-07-24",
+    "release-events": [
+    {
+    "area": {
+    "sort-name": "United Kingdom",
+    "disambiguation": "",
+    "name": "United Kingdom",
+    "type-id": null,
+    "iso-3166-1-codes": [
+    "GB"
+    ],
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": null
+    },
+    "date": "1995-07-24"
+    }
+    ],
+    "disambiguation": "",
+    "id": "9ba5eaf0-9126-3f9f-9108-4689a048133f",
+    "packaging": "Slim Jewel Case",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "title": "Waterfalls",
+    "asin": null,
+    "barcode": "743212988123",
+    "cover-art-archive": {
+    "front": false,
+    "darkened": false,
+    "artwork": false,
+    "back": false,
+    "count": 0
+    },
+    "country": "GB"
+    },
+    {
+    "id": "ad716367-9ed3-4e55-8e4e-cf17bbdf80e3",
+    "packaging": "Slim Jewel Case",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "packaging-id": "36327bc2-f691-3d66-80e5-bd03cec6060a",
+    "status": "Official",
+    "quality": "normal",
+    "date": "1995",
+    "release-events": [
+    {
+    "area": {
+    "type-id": null,
+    "name": "Europe",
+    "disambiguation": "",
+    "sort-name": "Europe",
+    "type": null,
+    "iso-3166-1-codes": [
+    "XE"
+    ],
+    "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+    },
+    "date": "1995"
+    }
+    ],
+    "disambiguation": "",
+    "barcode": "743212956825",
+    "cover-art-archive": {
+    "darkened": false,
+    "front": true,
+    "count": 3,
+    "artwork": true,
+    "back": false
+    },
+    "country": "XE",
+    "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+    },
+    "title": "Waterfalls",
+    "asin": "B000006T8L"
+    },
+    {
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "packaging": "None",
+    "id": "b2eb5aae-4efc-4e46-a71f-8817988d031c",
+    "disambiguation": "",
+    "status": "Official",
+    "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+    "date": "1994-11-14",
+    "quality": "normal",
+    "release-events": [
+    {
+    "area": {
+    "type": null,
+    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+    "iso-3166-1-codes": [
+    "XW"
+    ],
+    "type-id": null,
+    "disambiguation": "",
+    "sort-name": "[Worldwide]",
+    "name": "[Worldwide]"
+    },
+    "date": "1994-11-14"
+    }
+    ],
+    "country": "XW",
+    "cover-art-archive": {
+    "count": 0,
+    "back": false,
+    "artwork": false,
+    "front": false,
+    "darkened": false
+    },
+    "barcode": "730082600927",
+    "title": "Crazysexycool",
+    "asin": null,
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    }
+    },
+    {
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "id": "c5082733-8ccb-4e5f-a618-76650ca3bd6d",
+    "packaging": null,
+    "disambiguation": "",
+    "packaging-id": null,
+    "status": "Official",
+    "quality": "normal",
+    "date": "1994",
+    "release-events": [
+    {
+    "date": "1994",
+    "area": {
+    "type": null,
+    "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+    "iso-3166-1-codes": [
+    "XE"
+    ],
+    "type-id": null,
+    "name": "Europe",
+    "disambiguation": "",
+    "sort-name": "Europe"
+    }
+    }
+    ],
+    "country": "XE",
+    "barcode": "743213024226",
+    "cover-art-archive": {
+    "back": false,
+    "artwork": false,
+    "count": 0,
+    "darkened": false,
+    "front": false
+    },
+    "title": "CrazySexyCool (bonus disc)",
+    "asin": null,
+    "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+    }
+    },
+    {
+    "packaging": null,
+    "id": "d81b7056-773f-4708-b1e7-673f028e5e5d",
+    "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+    "date": "1992",
+    "quality": "normal",
+    "release-events": [
+    {
+    "area": {
+    "type-id": null,
+    "disambiguation": "",
+    "sort-name": "United States",
+    "name": "United States",
+    "type": null,
+    "iso-3166-1-codes": [
+    "US"
+    ],
+    "id": "489ce91b-6658-3307-9877-795b68554c98"
+    },
+    "date": "1992"
+    }
+    ],
+    "status": "Promotion",
+    "packaging-id": null,
+    "disambiguation": "",
+    "cover-art-archive": {
+    "count": 0,
+    "artwork": false,
+    "back": false,
+    "front": false,
+    "darkened": false
+    },
+    "barcode": null,
+    "country": "US",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "asin": null,
+    "title": "What About Your Friends"
+    },
+    {
+    "asin": null,
+    "title": "Ain't 2 Proud 2 Beg",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "country": "US",
+    "barcode": "",
+    "cover-art-archive": {
+    "artwork": false,
+    "back": false,
+    "count": 0,
+    "darkened": false,
+    "front": false
+    },
+    "disambiguation": "",
+    "quality": "normal",
+    "date": "1991-11-22",
+    "release-events": [
+    {
+    "date": "1991-11-22",
+    "area": {
+    "type-id": null,
+    "sort-name": "United States",
+    "disambiguation": "",
+    "name": "United States",
+    "type": null,
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "iso-3166-1-codes": [
+    "US"
+    ]
+    }
+    }
+    ],
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "status": "Promotion",
+    "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+    "id": "df2f24ef-4a70-4845-92e8-188dfb245ec9",
+    "packaging": "Jewel Case"
+    },
+    {
+    "cover-art-archive": {
+    "count": 9,
+    "artwork": true,
+    "back": true,
+    "front": true,
+    "darkened": false
+    },
+    "barcode": "743213024226",
+    "country": "DE",
+    "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+    },
+    "asin": null,
+    "title": "CrazySexyCool",
+    "packaging": "Jewel Case",
+    "id": "f3ea11f1-cd0f-4099-96c3-005bc35885c0",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "release-events": [
+    {
+    "area": {
+    "type-id": null,
+    "sort-name": "Germany",
+    "disambiguation": "",
+    "name": "Germany",
+    "type": null,
+    "iso-3166-1-codes": [
+    "DE"
+    ],
+    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+    },
+    "date": "1994"
+    }
+    ],
+    "quality": "normal",
+    "date": "1994",
+    "status": "Official",
+    "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+    "disambiguation": ""
+    },
+    {
+    "asin": null,
+    "title": "Waterfalls",
+    "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+    },
+    "country": "AU",
+    "cover-art-archive": {
+    "front": false,
+    "darkened": false,
+    "count": 0,
+    "back": false,
+    "artwork": false
+    },
+    "barcode": "730082410823",
+    "disambiguation": "",
+    "quality": "normal",
+    "date": "1995",
+    "release-events": [
+    {
+    "area": {
+    "iso-3166-1-codes": [
+    "AU"
+    ],
+    "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+    "type": null,
+    "disambiguation": "",
+    "sort-name": "Australia",
+    "name": "Australia",
+    "type-id": null
+    },
+    "date": "1995"
+    }
+    ],
+    "status": "Official",
+    "packaging-id": "36327bc2-f691-3d66-80e5-bd03cec6060a",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "packaging": "Slim Jewel Case",
+    "id": "fda7c264-fd2a-4e0f-a5fd-024ee7adf739"
+    }
+    ],
+    "release-offset": 0
+    }

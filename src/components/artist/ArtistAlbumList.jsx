@@ -4,7 +4,7 @@ import ArtistAlbumItem from './ArtistAlbumItem';
 import style from '../app/App.css';
 function ArtistAlbumList({ albums }) {
   return (
-    <ul className={style.albumList}>
+    <ul aria-label="albumList" className={style.albumList}>
       {albums.map((album) => (
         <li key={album.albumId}>
           <ArtistAlbumItem

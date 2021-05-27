@@ -1,7 +1,5 @@
 /* eslint-disable max-len */
-/**
- /* @jest-environment jsdom
- */
+
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
@@ -13,11 +11,12 @@ import beyonceSearch from '../../../JSON/beyonceSearch.json';
 
 const server = setupServer(
   rest.get('http://musicbrainz.org/ws/2/artist', (req, res, ctx) => {
-    const query = req.url.searchParams;
-    // const query = query.get('query');
-    query.get('fmt');
-    query.get('limit');
-    query.get('offset');
+    console.log('here it is');
+    // const query = req.url.searchParams;
+    // // const query = query.get('query');
+    // query.get('fmt');
+    // query.get('limit');
+    // query.get('offset');
     return res(ctx.json(beyonceSearch));
   })
 );
