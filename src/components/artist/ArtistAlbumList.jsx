@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import ArtistAlbumItem from './ArtistAlbumItem';
-
+import style from '../app/App.css';
 function ArtistAlbumList({ albums }) {
   return (
-    <ul>
+    <ul className={style.albumList}>
       {albums.map((album) => (
         <li key={album.albumId}>
           <ArtistAlbumItem
